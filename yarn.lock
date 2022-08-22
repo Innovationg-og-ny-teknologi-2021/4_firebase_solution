@@ -3674,7 +3674,7 @@ find-yarn-workspace-root@~2.0.0:
 
 firebase@^9.9.3:
   version "9.9.3"
-  resolved "https://registry.npmjs.org/firebase/-/firebase-9.9.3.tgz"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-9.9.3.tgz#f759ca9bd845b6c05a0c69a0cd62a23b3876d6bb"
   integrity sha512-lU1FstWqfVZQfz4+TWCZvqJYbwZMyoyP0X/xD/YIfrtXgquOMEDTpoasH4P79N9y3I8iV+6gQHuVmpK+AX2elg==
   dependencies:
     "@firebase/analytics" "0.8.0"

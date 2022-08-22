@@ -1,6 +1,8 @@
 import React from 'react';
 import {View, Text, Button, StyleSheet} from 'react-native';
-import firebase from 'firebase';
+//import firebase from 'firebase';
+import { initializeApp } from "firebase/app";
+import firebase from "firebase/compat";
 
 function ProfileScreen () {
 

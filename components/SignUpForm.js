@@ -5,7 +5,10 @@ import {Button,Text,
     ActivityIndicator,
     StyleSheet,
 } from 'react-native';
-import firebase from 'firebase';
+//import firebase from 'firebase';
+import { initializeApp } from "firebase/app";
+import firebase from "firebase/compat";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 
 function SignUpForm() {
@@ -19,6 +22,7 @@ function SignUpForm() {
     const renderButton = () => {
         return <Button onPress={() => handleSubmit()} title="Create user" />;
     };
+
 
     /*
    * Metoden herunder håndterer oprettelse af brugere ved at anvende den prædefinerede metode, som stilles til rådighed af firebase

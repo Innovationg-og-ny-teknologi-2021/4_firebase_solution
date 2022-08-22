@@ -7,7 +7,9 @@ import {
     ActivityIndicator,
     StyleSheet,
 } from 'react-native';
-import firebase from 'firebase';
+//import firebase from 'firebase';
+import { initializeApp } from "firebase/app";
+import firebase from "firebase/compat";
 
 function LoginForm() {
 
