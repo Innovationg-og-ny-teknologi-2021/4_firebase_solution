@@ -45,7 +45,7 @@ function LoginForm() {
 // Afslutningsvis, angives det at, hvis errorMessage får fastsat en værdi, skal denne udskrives i en tekstkomponent.
     return (
         <View>
-            <Text style={styles.header}>Login up</Text>
+            <Text style={styles.header}>Login</Text>
             <TextInput
                 placeholder="email"
                 value={email}
